@@ -1,6 +1,69 @@
-# CineHubApp
-An Movie Booking Application
-Built using java and javafx 
+# CineHubApp README Documentation
+
+Overview
+
+CineHubApp is a JavaFX-based application designed to provide a comprehensive platform for movie enthusiasts. It offers features like user authentication, profile management, booking, and more. This documentation outlines the application's structure, functionality, and usage.
+
+Application Structure
+
+The application consists of the following packages and classes:
+
+- cinehubapp: The main package containing all the application's classes.
+    - CineHubSplashScreen.java: The splash screen displayed on application launch.
+    - DatabaseConnector.java: Manages database connections and provides data access methods.
+    - ErrorWindow.java: Displays error messages with a "Try Again" button.
+    - FeatureComingSoonWindow.java: Informs users about upcoming features.
+    - LoginWindow.java: Handles user authentication and registration.
+    - User.java: Represents a user with an ID, username, and password.
+    - UserInfo.java: Stores and retrieves user information.
+    - SystemInfo.java: Provides methods to retrieve Java and JavaFX versions.
+
+Functionality
+
+1. User Authentication: Users can log in or register using the LoginWindow.
+2. Profile Management: Users can update their profile information using the UserInfo class.
+3. Booking: Users can book movies (feature coming soon).
+4. Error Handling: ErrorWindow displays error messages with a "Try Again" button.
+5. Upcoming Features: FeatureComingSoonWindow informs users about new features.
+
+Usage
+
+1. Run the application using the CineHubSplashScreen class.
+2. Log in or register using the LoginWindow.
+3. Update profile information using the UserInfo class.
+4. Book movies (feature coming soon).
+5. View error messages and retry actions using the ErrorWindow.
+6. Get notified about upcoming features using the FeatureComingSoonWindow.
+
+Database
+
+The application uses a MySQL database to store user information and booking data. The DatabaseConnector class manages connections and provides data access methods.
+
+System Requirements
+
+- Java 11 or later
+- JavaFX 11 or later
+- MySQL database
+
+Known Issues
+
+- Booking feature is not implemented yet.
+- Error handling can be improved.
+
+Future Development
+
+- Implement booking feature.
+- Enhance error handling.
+- Add more features (e.g., movie reviews, ratings).
+
+Contributing
+
+Contributions are welcome! Please submit pull requests or report issues on the project's GitHub page.
+
+License
+
+CineHubApp is licensed under the MIT License. See LICENSE.txt for details.
+
 # Opening Screen
 ![Opening Screen](https://github.com/user-attachments/assets/c67c3417-d8aa-4459-816e-bf5254b4af14)
 # User Profile Window
