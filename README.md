@@ -72,6 +72,8 @@ CineHubApp is licensed under the MIT License. See LICENSE.txt for details.
 ![Loading Screen](https://github.com/user-attachments/assets/e2bfc18b-6a2e-4665-954b-0502fb6febff)
 # Booking Screen
 ![Booking Screen](https://github.com/user-attachments/assets/9935073a-9c33-4001-b921-93796bc1116d)
+# Seat Selection Window 
+![Seat Selection window](https://github.com/user-attachments/assets/8ea6a908-e0b4-4ff8-b041-9a47c7a887a1)
 # Viewing Abailable Movies Window
 ![Available Movies Scren 3](https://github.com/user-attachments/assets/70c6e645-99dc-4a78-8e68-8cc5875a359e)
 ![Available Movies Screen 2](https://github.com/user-attachments/assets/1ea8f324-4b47-4ece-839e-4618c11a4a2e)
