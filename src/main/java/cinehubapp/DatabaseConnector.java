@@ -222,6 +222,7 @@ public class DatabaseConnector {
             preparedStatement.setString(5, address);
             // Execute the insert query
             int rowsAffected = preparedStatement.executeUpdate();
+            connection.commit(); 
             // Check if any rows were affected
             return rowsAffected > 0; // Insert successful
         } catch (SQLException e) {
